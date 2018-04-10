@@ -1,0 +1,22 @@
+<h2>How it works</h2>
+<div class="text-info">This tool can convert a number to any base.</div>
+<ul>
+	<li>Common bases :</li>
+	<li><b>base 10 : </b>Decimal form (common used)</li>
+	<li><b>base 2 : </b>Binary form</li>
+	<li><b>base 8 : </b>Octal form</li>	
+	<li><b>base 16 : </b>Hexa form</li>
+</ul>
+<div class="formcontent">
+	<h1>Base Converter</h1>
+	<form [formGroup]="form">
+		<p><input type="text" class="input-ctrl" name="decimal" placeholder="Decimal" formControlName="decimal" (ngModelChange) = "decimalChanged(oldValue, newValue = $event)"></p>
+		
+		<p><input type="text" class="input-ctrl" name="binary" placeholder="Binary" formControlName="binary" (ngModelChange) = "binaryChanged(oldValue, newValue = $event)"></p>
+
+		<p><input type="text" class="input-ctrl" name="octal" placeholder="Octal" formControlName="octal" (ngModelChange) = "octalChanged(oldValue, newValue = $event)"></p>
+		
+		<p><input type="text" class="input-ctrl" name="hexa" placeholder="Hexa" formControlName="hexa" (ngModelChange) = "hexaChanged(oldValue, newValue = $event)"></p>
+	
+	</form>
+</div> 

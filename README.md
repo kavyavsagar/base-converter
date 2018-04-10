@@ -1,2 +1,3 @@
-# base-converter
-A simple Angular 4 application which convert the base values
+# Base Converter
+A simple Angular 4 application which convert the base values.
+
