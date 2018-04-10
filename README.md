@@ -10,7 +10,7 @@ You can install, generate and serve a new Angular 4 project via development serv
 <pre>ng new PROJECT-NAME</pre>
 
 <h3>Run app</h3>
-<pre> cd PROJECT-NAME<br>
+<pre>cd PROJECT-NAME<br>
 ng serve</pre>
 
 Go to http://localhost:4200/. The app will automatically reload if you change any of the source files.
