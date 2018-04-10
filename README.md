@@ -7,10 +7,10 @@ You can install, generate and serve a new Angular 4 project via development serv
 <pre>npm install -g @angular/cli</pre>
 
 <h3>Generating new app</h3>
-<pre>ng new PROJECT-NAME</pre>
+<pre>ng new base-converter</pre>
 
 <h3>Run app</h3>
-<pre>cd PROJECT-NAME<br>
+<pre>cd base-converter<br>
 ng serve</pre>
 
 Go to http://localhost:4200/. The app will automatically reload if you change any of the source files.
@@ -19,7 +19,7 @@ You can change the HTTP host and port via terminal
 <pre>ng serve --host 0.0.0.0 --port 4201</pre>
 
 <h3>Generate new component</h3>
-<pre>ng g component my-new-component-name</pre>
+<pre>ng g component home (my-new-component-name)</pre>
 
 
 <h3>Description</h3>
